@@ -6,7 +6,7 @@ This is a lit little discord bot created/managed by fans and friends of **[Addie
    Name         | Github                                               | Youtube  | Twitch   | Other
  :------------: | :--------------------------------------------------: | :------: | :------: | :------: 
  Henrik         |[Github](https://github.com/henrikvtcodes)            |
- A Hazy Winter  |[Github](https://github.com/ahazywinter)              | [Youtube](https://www.youtube.com/channel/UC5V1dBucnhGyX9C0mjeUx1Q)
+ a hazy winter  |[Github](https://github.com/ahazywinter)              | [Youtube](https://www.youtube.com/channel/UC5V1dBucnhGyX9C0mjeUx1Q)
 Dawwa           |[Github](https://github.com/dawwa1)
 Yvonne          |[Github](https://github.com/crytorr)                  |          | [Twitch](https://twitch.tv/crytorr)
 
