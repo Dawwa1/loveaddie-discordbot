@@ -12,7 +12,7 @@
         "quotes": ["error", "single"],
         "prefer-const": "error",
 		"object-curly-spacing": ["error", "always"],
-        "no-var": "error"
-
+        "no-var": "error",
+		"sourceType": "module"
 	}
 }
