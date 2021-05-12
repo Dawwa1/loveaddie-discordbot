@@ -1,5 +1,5 @@
 # LoveAddie Discord Bot!
-This is a lit little discord bot created/managed by fans and friends of [Addie](https://twitch.tv/loveaddie).
+This is a lit little discord bot created/managed by fans and friends of **[Addie](https://twitch.tv/loveaddie)**.
 <br>
 ### Credits
 <br>
