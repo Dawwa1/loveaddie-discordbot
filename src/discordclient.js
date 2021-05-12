@@ -28,6 +28,8 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content.startsWith('!mute')){
         const user = message.mentions.users.first();
+        const author = message.author;
+       if (author.hasPermission('KICK_MEMBERS')){
         if (user){
             const member = message.guild.member(user);
             if (member) {
@@ -60,4 +62,5 @@ client.on('message', message => {
               message.reply('You didn\'t mention the user to mute!');
             }
           }
-        });
+        }
+    });
