@@ -6,6 +6,5 @@ try {
     client.login(token);
 }
 finally{
-
+    console.log("Login Successful!")
 }
-
