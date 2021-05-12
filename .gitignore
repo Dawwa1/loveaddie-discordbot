@@ -1,0 +1,7 @@
+#node modules, obviously
+/node_modules
+
+# local envs
+.env.local
+.env.development.local
+.env.production.local
