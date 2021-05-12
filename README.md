@@ -1,11 +1,12 @@
 # LoveAddie Discord Bot!
 This is a lit little discord bot created/managed by fans and friends of Addie.
 <br>
-## Credits
-
+### Credits
+<br>
 
 **Programmers**
-<br><br>
+<br>
+
 Henrik - [Github](https://github.com/henrikvtcodes)
 <br>
 a hazy winter - [Github](https://github.com/ahazywinter), [Youtube](https://www.youtube.com/channel/UC5V1dBucnhGyX9C0mjeUx1Q)
