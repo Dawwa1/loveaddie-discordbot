@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/henrikvtcodes/loveaddie-discordbot#readme",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.2"
   },
   "devDependencies": {
     "eslint": "^7.26.0"
