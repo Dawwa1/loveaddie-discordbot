@@ -9,7 +9,8 @@ client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
 
-const { token, prefix } = require('./config.json'); // change path to fit github repo
+const token = process.ENV.token;
+const prefix = "!addiebot ";
 
 client.login(token);
 
