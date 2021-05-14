@@ -11,6 +11,7 @@ function socials() {
     embed.addField("Youtube", "[This](https://www.youtube.com/channel/UCpZkASmeHBMODJtE_qos2Zg/featured) is where addie posts VODs and more!", true);
     embed.addField("Twitter", "Follow addie on twitter to see [addie's tweets](https://twitter.com/swimthestars)!", true);
     embed.addField("Instagram", "Follow [addie](https://www.instagram.com/yaydrianne/?hl=en) on Instagram to see her Instagram posts!", true);
+    embed.setTimestamp();
     embed.setFooter("Socials requested by " + message.author.username);
     return embed;
 }
