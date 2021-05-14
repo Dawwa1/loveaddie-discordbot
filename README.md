@@ -16,6 +16,7 @@ This is a lit little discord bot created/managed by fans and friends of **[Addie
 ### Packages
 
 - **discord.js** - A npm library used to create discord bots
+- Packages listed on the [Discord.js Guide's "Useful packages" page](https://discordjs.guide/miscellaneous/useful-packages.html#common-tags)
 
 ### Status
 - **Paused** - Planning the bot and getting what we need, most likely will revamp the bot.
