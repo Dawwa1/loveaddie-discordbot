@@ -9,7 +9,7 @@ client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
 
-const token = process.ENV.token;
+const token = process.ENV.DISCORD_TOKEN;
 const prefix = "!addiebot ";
 
 client.login(token);
