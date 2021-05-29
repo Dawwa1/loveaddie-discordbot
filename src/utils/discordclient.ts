@@ -1,5 +1,5 @@
 import Discord from 'discord.js';
-export const client = new Discord.Client();
+const client = new Discord.Client();
 const token = process.env.DISCORD_TOKEN;
 
 try {
@@ -9,4 +9,5 @@ finally{
     console.log('Login Successful!');
 }
 
-export default Discord;
+
+export default client;
