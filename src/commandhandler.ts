@@ -1,12 +1,12 @@
+/*
+
 const fs = require('fs');
 const logger = require('winston')
 
-const Discord = require('discord.js');
-
-const client = new Discord.Client();
+import client from '@client';
 client.commands = new Discord.Collection();
 
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+const commandFiles = fs.readdirSync('@command').filter(file => file.endsWith('.js'));
 
 
 const token = process.env.DISCORD_TOKEN;
@@ -37,3 +37,5 @@ for (const file of commandFiles) {
     const command = require(`./commands/${file}`)
     client.commands.set(command.name, command);
 }
+
+*/
