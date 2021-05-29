@@ -19,4 +19,4 @@ This is a lit little discord bot created/managed by fans and friends of **[Addie
 - Packages listed on the [Discord.js Guide's "Useful packages" page](https://discordjs.guide/miscellaneous/useful-packages.html#common-tags)
 
 ### Status
-- **Paused** - Planning the bot and getting what we need, most likely will revamp the bot.
+- **Revamping** - Revamping the bot -- We're going to include typescript and we are going to use AdonisJS to store data and more.
