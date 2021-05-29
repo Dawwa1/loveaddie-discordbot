@@ -1,0 +1,19 @@
+name: 'build & test'
+on: # rebuild any PRs and main branch changes
+  pull_request:
+  push:
+    branches:
+      - main
+      - 'releases/*'
+
+jobs:
+  build: # make sure build works
+    runs-on: ubuntu-latest
+    with: # Set the secret as an input
+      DISCORD_TOKEN: $DISCORD_TOKEN
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          npm install
+      - run: |
+          tsc
