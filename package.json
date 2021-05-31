@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/henrikvtcodes/loveaddie-discordbot#readme",
   "dependencies": {
+    "asciify-image": "^0.1.6",
     "discord.js": "^12.5.3",
     "dotenv": "^9.0.2"
   },
