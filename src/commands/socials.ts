@@ -2,7 +2,10 @@ import { Embed } from '@client';
 
 
 
-const socials = () => {
+const validArgs: string[] = ['socials', 'twitch', 'youtube', 'instagram', 'twitter']
+
+const Socials = () => {
+    const validArgs = ['socials', 'twitch', 'youtube', 'instagram', 'twitter']
     const embed = new Embed
     embed.setAuthor("AddieBot", "https://cdn.discordapp.com/icons/794715345733812255/a_755b623570a94600e04eed0a7461d5f4.png?size=256", "https://github.com/henrikvtcodes/loveaddie-discordbot");
     embed.setTitle("♡ loveaddie's socials! ♡", );
@@ -16,4 +19,5 @@ const socials = () => {
     return embed;
 }
 
-export default socials;
+export default Socials;
+export { validArgs };
