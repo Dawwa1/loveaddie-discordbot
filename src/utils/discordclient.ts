@@ -13,6 +13,5 @@ finally{
 const Message = Discord.Message;
 const Embed = Discord.MessageEmbed;
 
-
 export default client;
-export { Discord, Message, Embed };
+export { Message, Embed };
