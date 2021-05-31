@@ -1,6 +1,6 @@
 import { Embed } from '@client';
 
-const ascii = require('asciify-image');
+import ascii from 'asciify-image';
 const fs = require('fs')
 
 // ascii to image options
@@ -13,7 +13,7 @@ var options = {
 options.color = false;
 
 // function
-const asciify = () => {
+const asciify = (message) => {
     const embed = new Embed;
 
     embed.setTitle = "ascii to img"
